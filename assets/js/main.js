@@ -102,7 +102,7 @@
     btn.addEventListener("click", function () {
       var f = btn.getAttribute("data-filter");
       filters.forEach(function (b) { b.setAttribute("aria-pressed", b === btn ? "true" : "false"); });
-      var n = 0;
+      var n = 0; var g = doc.querySelector(".work-grid"); if (g) g.scrollLeft = 0;
       cards.forEach(function (c) {
         var show = f === "all" || c.getAttribute("data-cat") === f;
         c.classList.toggle("is-hidden", !show);

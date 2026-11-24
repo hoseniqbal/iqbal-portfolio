@@ -194,8 +194,9 @@ const page = `<!doctype html>
         <button class="filter" data-filter="wordpress" aria-pressed="false">WordPress</button>
         <button class="filter" data-filter="other" aria-pressed="false">Wix and HubSpot</button>
       </div>`)}
-    <div class="work-grid">${workCards}
+    <div class="work-grid m-carousel">${workCards}
     </div>
+    <p class="swipe-hint">Swipe to see more →</p>
     <details class="index reveal">
       <summary><span>Full project list<small>${TOTAL} live websites across Shopify, WordPress, Wix and HubSpot</small></span><span class="plus" aria-hidden="true">+</span></summary>
       <div class="index-body">${indexCols}</div>
@@ -207,7 +208,7 @@ const page = `<!doctype html>
   <div class="wrap">${head("Specialty", 'Shopify landing pages <span class="serif">built for paid traffic.</span>', "Most of my Shopify work is landing pages for Meta and Google ads. A store's home page isn't built to sell one product to a cold visitor. A landing page is.")}
     <div class="lp-grid">
       <div>
-        <ul class="lp-list">
+        <ul class="lp-list m-carousel">
           <li class="reveal"><span class="n">01</span><b>One message from ad to checkout</b><span>The headline, offer and visuals continue the ad, so visitors know they're in the right place.</span></li>
           <li class="reveal" style="--d:80ms"><span class="n">02</span><b>Offers that raise order value</b><span>Bundles, quantity breaks, subscriptions and free gifts, set up the way your theme and apps support them.</span></li>
           <li class="reveal" style="--d:160ms"><span class="n">03</span><b>Trust before the price</b><span>Reviews, guarantees, ingredients, comparisons and FAQs placed where buyers hesitate.</span></li>
@@ -226,7 +227,7 @@ const page = `<!doctype html>
 
 <section class="section" id="services">
   <div class="wrap">${head("Services", 'One developer for your store, <span class="serif">site and funnels.</span>', "You don't need three freelancers. I handle the design, the build and the technical setup behind it.")}
-    <div class="svc-grid">
+    <div class="svc-grid m-carousel">
       <article class="svc reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.4 11.2a1 1 0 0 0 1 .8h8.9a1 1 0 0 0 1-.8L20 8H6"/><circle cx="9" cy="20" r="1"/><circle cx="17" cy="20" r="1"/></svg></div>
         <h3>Shopify landing pages</h3><p>Product pages, advertorials and campaign pages designed to convert ad traffic, or a page you like rebuilt properly for your brand.</p><ul><li>Replo</li><li>PageFly</li><li>GemPages</li></ul></article>
       <article class="svc reveal" style="--d:80ms"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9l1-5h14l1 5M4 9v11h16V9M4 9h16M9 20v-6h6v6"/></svg></div>
@@ -247,7 +248,7 @@ const page = `<!doctype html>
 <section class="section ai-sec" id="ai">
   <div class="wrap">${head("AI powered", 'AI that does real work <span class="serif">for your business.</span>', "I use AI every day to build faster, and I build AI into my clients' stores, websites and funnels. Practical tools that save time and bring in leads, not gimmicks.")}
     <div class="ai-grid">
-      <div class="ai-cards">
+      <div class="ai-cards m-carousel">
         ${[
           ["M8 10h8M8 14h5M21 12c0 4.4-4 8-9 8-1.5 0-2.9-.3-4.1-.9L3 20l1.3-3.9C3.5 14.9 3 13.5 3 12c0-4.4 4-8 9-8s9 3.6 9 8z", "AI chat and booking agents", "Agents that answer questions, qualify leads and book calls around the clock, inside GoHighLevel or on your website."],
           ["M4 12h4l3-7 3 14 3-7h3", "AI automation workflows", "Follow ups, lead routing, CRM updates and reports that run on their own, connected through custom APIs."],
@@ -276,19 +277,21 @@ const page = `<!doctype html>
 
 <section class="section tight" id="process">
   <div class="wrap">${head("How we'll work", 'Clear steps, <span class="serif">no surprises.</span>', "You always know what's happening, what it costs and when it will be ready.")}
-    <ol class="process">
+    <ol class="process m-carousel">
       <li class="step reveal"><h3>Quick brief</h3><p>Send your store link or idea on WhatsApp, Fiverr or Upwork. A short message is enough to start.</p></li>
       <li class="step reveal" style="--d:100ms"><h3>Fixed quote and plan</h3><p>Within 24 hours you get a clear scope, price and delivery date before any work starts.</p></li>
       <li class="step reveal" style="--d:200ms"><h3>Build with updates</h3><p>I build on a draft theme or staging site, so your live store is never touched until you approve.</p></li>
       <li class="step reveal" style="--d:300ms"><h3>Launch and support</h3><p>We go live together. Small fixes after launch are included, and you get a simple handover.</p></li>
     </ol>
+    <p class="swipe-hint">Swipe to see more →</p>
   </div>
 </section>
 
 <section class="section band" id="pricing">
   <div class="wrap">${head("Pricing", 'Honest starting prices. <span class="serif">Fixed quote before we start.</span>', "The final price depends on your scope. You always get a fixed quote first, with no hidden extras.")}
-    <div class="price-grid">${pricing}
+    <div class="price-grid m-carousel">${pricing}
     </div>
+    <p class="swipe-hint">Swipe to see more →</p>
     <p class="price-note">Ongoing updates, fixes and maintenance: <strong>$${e(C.hourly_rate)} per hour</strong>. Also available on <a href="${e(C.fiverr)}" target="_blank" rel="noopener">Fiverr</a> and <a href="${e(C.upwork)}" target="_blank" rel="noopener">Upwork</a>.</p>
   </div>
 </section>
@@ -299,7 +302,7 @@ const page = `<!doctype html>
       <div class="rating-big"><strong data-count="${e(S.rating)}" data-dec="1">${e(S.rating)}</strong><div>${STAR}<small>${e(S.reviews)} reviews on Fiverr · ${e(S.five_star)} five star</small></div></div>
       <div class="rating-split"><div><b>5.0</b><span>Communication</span></div><div><b>5.0</b><span>Quality of delivery</span></div><div><b>4.9</b><span>Value for money</span></div></div>
     </div>
-    <div class="videos">
+    <div class="videos m-carousel">
       <button class="video reveal" data-yt="g5_53jJT79w" aria-label="Play video review from Gisela Sanders Alcántara">
         <img src="https://i.ytimg.com/vi/g5_53jJT79w/hq720.jpg" alt="Video review from Gisela Sanders Alcántara" loading="lazy" width="405" height="720" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/g5_53jJT79w/hqdefault.jpg'">
         <span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l14 8-14 8z"/></svg></span>
@@ -347,7 +350,7 @@ const page = `<!doctype html>
   </div>
   <div class="wrap toolbox">
     <h3 class="toolbox-title reveal">Tools I work with every day</h3>
-    <div class="tool-grid">
+    <div class="tool-grid m-carousel">
       ${[
         ["E-commerce", "M3 4h2l2.4 11.2a1 1 0 0 0 1 .8h8.9a1 1 0 0 0 1-.8L20 8H6", ["Shopify","Liquid","Replo","PageFly","GemPages","WooCommerce"]],
         ["CMS and funnels", "M4 5h16v14H4zM4 9h16M9 9v10", ["WordPress","Elementor","Gutenberg","Wix","HubSpot CMS","GoHighLevel"]],
@@ -361,7 +364,7 @@ const page = `<!doctype html>
 
 <section class="section dark" id="open-source">
   <div class="wrap">${head("Open source", 'WordPress plugins <span class="serif">anyone can use.</span>', "Free plugins I build and maintain with the WordPress Satkhira Community. The code is public on GitHub.")}
-    <div class="oss-grid">${OSS.map(([r, n, d], i) => `<a class="oss reveal" style="--d:${(i % 3) * 80}ms" href="https://github.com/WordPress-Satkhira-Community/${r}" target="_blank" rel="noopener"><div class="top"><span>WordPress plugin</span>${GH}</div><h3>${n}</h3><p>${d}</p></a>`).join("")}</div>
+    <div class="oss-grid m-carousel">${OSS.map(([r, n, d], i) => `<a class="oss reveal" style="--d:${(i % 3) * 80}ms" href="https://github.com/WordPress-Satkhira-Community/${r}" target="_blank" rel="noopener"><div class="top"><span>WordPress plugin</span>${GH}</div><h3>${n}</h3><p>${d}</p></a>`).join("")}</div>
   </div>
 </section>
 
