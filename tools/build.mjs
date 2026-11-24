@@ -299,7 +299,7 @@ const page = `<!doctype html>
 
 <section class="section about" id="about">
   <div class="wrap about-grid">
-    <figure class="about-photo reveal"><img src="/assets/img/iqbal-portrait-dark.webp" alt="Portrait of Iqbal Hossen" width="760" height="880" loading="lazy">
+    <figure class="about-photo reveal"><img src="/assets/img/iqbal-workspace.webp" alt="Iqbal Hossen working at his desk" width="780" height="1045" loading="lazy">
       <figcaption><span>Iqbal Hossen</span><span>Bangladesh · GMT+6</span></figcaption></figure>
     <div class="reveal">
       <span class="eyebrow">About me</span>
@@ -408,7 +408,7 @@ fs.writeFileSync(path.join(OUT, "index.html"), page);
 fs.writeFileSync(path.join(OUT, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>${SITE}/</loc><lastmod>${TODAY}</lastmod><changefreq>monthly</changefreq><priority>1.0</priority>
-    <image:image><image:loc>${SITE}/assets/img/iqbal-portrait-dark.webp</image:loc></image:image>
+    <image:image><image:loc>${SITE}/assets/img/iqbal-workspace.webp</image:loc></image:image>
 ${C.featured.map((p) => `    <image:image><image:loc>${SITE}${e(p.image)}</image:loc></image:image>`).join("\n")}
   </url>
 </urlset>
