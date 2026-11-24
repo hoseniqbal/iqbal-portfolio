@@ -1,0 +1,39 @@
+{
+  "site_url": "https://iqbalhossen.vercel.app",
+  "whatsapp": "8801533582579",
+  "whatsapp_display": "+880 1533-582579",
+  "email": "",
+  "fiverr": "https://www.fiverr.com/iqbal138",
+  "upwork": "https://www.upwork.com/freelancers/~01f6502fd88cd6b504",
+  "github": "https://github.com/hoseniqbal",
+
+  "featured": [
+    {"slug":"justpeloponnes","name":"Just Peloponnes","url":"https://just-peloponnes.de/pages/olivenol-ads","cat":"landing","tags":["Shopify","Ad landing page"],"market":"Germany","desc":"Ad landing page for a family olive-oil brand from the Peloponnese, built to convert cold Meta traffic."},
+    {"slug":"phoebe","name":"PHOEBÉ Kollagen","url":"https://www.phoebecare.de/pages/kollagen-pur-pulver-30-sticks","cat":"landing","tags":["Shopify","Product page"],"market":"Germany","desc":"Collagen supplement page with bundle selector, per-stick pricing and trust sections."},
+    {"slug":"titanboard","name":"TitanBoard®","url":"https://titanboard.ch/pages/titanboard%C2%AE-schneidebrett-ohne-mikroplastik","cat":"landing","tags":["Shopify","Ad landing page"],"market":"Switzerland","desc":"Bilingual landing page for a titanium cutting board, with quantity offers in CHF."},
+    {"slug":"homardo","name":"Homardo YouGlow","url":"https://homardo.de/pages/youglow-face-landing","cat":"landing","tags":["Shopify","Advertorial"],"market":"Germany","desc":"Problem-vs-solution landing page for a daily SPF 50+ face cream."},
+    {"slug":"nepimi","name":"Nepimi Organics","url":"https://nepimi.com/","cat":"store","tags":["Shopify","Full store"],"market":"USA","desc":"Complete Shopify store for a topical joint-comfort cream for women over 50."},
+    {"slug":"tajati","name":"TAJATI® Original","url":"https://tajati.de/products/tajati%C2%AE-original","cat":"landing","tags":["Shopify","Product page"],"market":"Germany","desc":"High-ticket supplement product page with tiered bundles and free-gift offer."},
+    {"slug":"primeflow","name":"PrimeFlow Journal","url":"https://primeflowjournal.com/","cat":"store","tags":["Shopify","Brand store"],"market":"UK & EU","desc":"Dark, bold one-product store for a 90-day focus journal."},
+    {"slug":"drwuffy","name":"Dr. Wuffy","url":"https://dr-wuffy.de/products/gelenksupplement-hund","cat":"landing","tags":["Shopify","Product page"],"market":"Germany","desc":"Science-led product page for a joint supplement for dogs."},
+    {"slug":"mplus","name":"Mplus Design","url":"https://mplus.berlin/pages/backpack","cat":"landing","tags":["Shopify","Product page"],"market":"Germany","desc":"Minimal, premium product page for a handmade Italian leather backpack."},
+    {"slug":"smarttassen","name":"viva Smart Tassen","url":"https://smarttassen.de/pages/mainz-stadttasse","cat":"landing","tags":["Shopify","Landing page"],"market":"Germany","desc":"Landing page for a city mug with NFC photo-album, built for seasonal campaigns."},
+    {"slug":"happyfeedbag","name":"Happy Feedbag","url":"https://www.happyfeedbag.de/pages/zartes-landhuhn-trockenfutter","cat":"landing","tags":["Shopify","Subscription"],"market":"Germany","desc":"Dog-food landing page with guarantee and subscription (HappyAbo) offer."},
+    {"slug":"ostseefolien","name":"Ostsee Folien","url":"https://ostseefolien.shop/","cat":"store","tags":["Shopify","Full store"],"market":"Germany","desc":"Storefront for a professional aluminium squeegee for foil installers."},
+    {"slug":"stclair","name":"St. Clair London","url":"https://www.stclairlondon.com/","cat":"store","tags":["Shopify","Fashion"],"market":"UK","desc":"Editorial fashion store for contemporary floral cotton dresses."},
+    {"slug":"techskills","name":"TechSkills Institute","url":"https://techskills.institute/","cat":"wordpress","tags":["WordPress","Elementor"],"market":"Australia","desc":"Education site for IT job-ready programs across Sydney, Melbourne and Perth."},
+    {"slug":"mintmuseum","name":"The Mint Museum","url":"https://www.mintmuseum.org/","cat":"wordpress","tags":["WordPress","Culture"],"market":"USA","desc":"Website work for North Carolina's first art museum."},
+    {"slug":"creditpros","name":"The Credit Pros","url":"https://thecreditpros.com/","cat":"wordpress","tags":["WordPress","Finance"],"market":"USA","desc":"Lead-generation website for a US credit repair company."},
+    {"slug":"gisela","name":"Gisela Sanders Alcántara","url":"https://giselasa.com/","cat":"wordpress","tags":["WordPress","Personal brand"],"market":"USA","desc":"Personal brand website for an author and speaker."},
+    {"slug":"blunsdon","name":"Blunsdon Abbey Park","url":"https://blunsdonabbey.co.uk/","cat":"wordpress","tags":["WordPress","Real estate"],"market":"UK","desc":"Website for a residential park-homes community in Wiltshire."},
+    {"slug":"broughton","name":"Broughton Group","url":"https://www.broughton-group.com/","cat":"other","tags":["HubSpot CMS","B2B"],"market":"UK","desc":"Corporate site for a testing, consultancy and compliance group."},
+    {"slug":"lunchbox","name":"Lunch Box Catering","url":"https://www.lunchboxcatering.co.uk/","cat":"other","tags":["Wix","Food"],"market":"UK","desc":"Catering website with online ordering for a Basingstoke food business."}
+  ],
+
+  "index": {
+    "Shopify": ["stclairlondon.com","correxiko.com","adkfragrancefarm.com","felinestop.com","nepimi.com","primeflowjournal.com","ostseefolien.shop","just-peloponnes.de","phoebecare.de","titanboard.ch","homardo.de","pheniox.de","tajati.de","smarttassen.de","happyfeedbag.de","dr-wuffy.de","mplus.berlin"],
+    "WordPress · Part 1": ["blunsdonabbey.co.uk","foretwoaccounting.co.uk","foretwogroup.co.uk","medconnectusa.com","healthplansny.com","ampaesthetics.com","soprow.com","che.institute","activecarelink.com.au","techskills.institute","activeit.net.au","ninjatechs.com.au","ultimateitsupport.com.au","alphexpaintingandremodeling.com","berkshireroofs.co.uk","thecreditpros.com","mintmuseum.org","encantatalentmanagement.com"],
+    "WordPress · Part 2": ["talent-shore.com","globalcitizenshq.com","superchargedoffers.com","bluellama.co.uk","peekabooworld.com","finanzportal24.de","edgewatercustompools.com","ariahandmade.com","maoriental.co.uk","newdayproperties.com","victorvoltage.org","everbrave.com","wisenvesting.com","daddylovesbirthdays.org","publichealthsavvy.com","digitalcctv.com.au","roofersassociation.co.uk","toptechnv.com"],
+    "WordPress, Wix & more": ["goldencoastmed.com","hallfare.com","noblenomads.nl","onthegoterminal.co.uk","reforesttheearth.com","serpadigital.ro","zinohapharmacy.com","giselasa.com","yumohyum.com","book.ceramiccoatingsredding.com","datingisfordummies.com","lunchboxcatering.co.uk","alohatinyhales.com","broughton-group.com"]
+  }
+}
