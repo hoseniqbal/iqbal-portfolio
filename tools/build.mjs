@@ -204,23 +204,22 @@ const page = `<!doctype html>
 </section>
 
 <section class="section dark" id="landing-pages">
-  <div class="wrap lp-grid">
-    <div class="reveal">
-      <span class="eyebrow">Specialty</span>
-      <h2 class="lp-title">Shopify landing pages <span class="serif">built for paid traffic.</span></h2>
-      <p class="lead">Most of my Shopify work is landing pages for Meta and Google ads. A store's home page isn't built to sell one product to a cold visitor. A landing page is.</p>
-      <ul class="lp-list">
-        <li><span class="n">01</span><div><b>One message from ad to checkout</b><span>The headline, offer and visuals continue the ad, so visitors know they're in the right place.</span></div></li>
-        <li><span class="n">02</span><div><b>Offers that raise order value</b><span>Bundles, quantity breaks, subscriptions and free gifts, set up the way your theme and apps actually support them.</span></div></li>
-        <li><span class="n">03</span><div><b>Trust before the price</b><span>Reviews, guarantees, ingredients, comparisons and FAQs placed where buyers hesitate.</span></div></li>
-        <li><span class="n">04</span><div><b>Fast on mobile</b><span>Most ad traffic is on a phone. Every page is built mobile first and checked for speed.</span></div></li>
-      </ul>
-      <div class="platforms"><span>Replo</span><span>PageFly</span><span>GemPages</span><span>Online Store 2.0</span><span>Liquid</span><span>Advertorials and listicles</span></div>
-    </div>
-    <div class="stack-shots" aria-hidden="true">
-      <figure class="s1" data-speed="-0.06"><img src="/assets/work/titanboard.webp" alt="" width="800" height="500" loading="lazy"></figure>
-      <figure class="s2" data-speed="0.05"><img src="/assets/work/homardo.webp" alt="" width="800" height="463" loading="lazy"></figure>
-      <figure class="s3" data-speed="-0.03"><img src="/assets/work/justpeloponnes.webp" alt="" width="800" height="500" loading="lazy"></figure>
+  <div class="wrap">${head("Specialty", 'Shopify landing pages <span class="serif">built for paid traffic.</span>', "Most of my Shopify work is landing pages for Meta and Google ads. A store's home page isn't built to sell one product to a cold visitor. A landing page is.")}
+    <div class="lp-grid">
+      <div>
+        <ul class="lp-list">
+          <li class="reveal"><span class="n">01</span><b>One message from ad to checkout</b><span>The headline, offer and visuals continue the ad, so visitors know they're in the right place.</span></li>
+          <li class="reveal" style="--d:80ms"><span class="n">02</span><b>Offers that raise order value</b><span>Bundles, quantity breaks, subscriptions and free gifts, set up the way your theme and apps support them.</span></li>
+          <li class="reveal" style="--d:160ms"><span class="n">03</span><b>Trust before the price</b><span>Reviews, guarantees, ingredients, comparisons and FAQs placed where buyers hesitate.</span></li>
+          <li class="reveal" style="--d:240ms"><span class="n">04</span><b>Fast on mobile</b><span>Most ad traffic is on a phone. Every page is built mobile first and checked for speed.</span></li>
+        </ul>
+        <div class="platforms reveal"><span>Replo</span><span>PageFly</span><span>GemPages</span><span>Online Store 2.0</span><span>Liquid</span><span>Advertorials and listicles</span></div>
+      </div>
+      <div class="stack-shots" aria-hidden="true">
+        <figure class="s1" data-speed="-0.06"><img src="/assets/work/titanboard.webp" alt="" width="800" height="500" loading="lazy"></figure>
+        <figure class="s2" data-speed="0.05"><img src="/assets/work/homardo.webp" alt="" width="800" height="463" loading="lazy"></figure>
+        <figure class="s3" data-speed="-0.03"><img src="/assets/work/justpeloponnes.webp" alt="" width="800" height="500" loading="lazy"></figure>
+      </div>
     </div>
   </div>
 </section>
@@ -300,7 +299,7 @@ const page = `<!doctype html>
 
 <section class="section about" id="about">
   <div class="wrap about-grid">
-    <figure class="about-photo reveal"><img src="/assets/img/iqbal-portrait.webp" alt="Portrait of Iqbal Hossen" width="754" height="867" loading="lazy">
+    <figure class="about-photo reveal"><img src="/assets/img/iqbal-portrait.webp" alt="Portrait of Iqbal Hossen" width="760" height="880" loading="lazy">
       <figcaption><span>Iqbal Hossen</span><span>Bangladesh · GMT+6</span></figcaption></figure>
     <div class="reveal">
       <span class="eyebrow">About me</span>
@@ -313,16 +312,18 @@ const page = `<!doctype html>
         <li><time>2021 to 2025</time><div><b>Website Developer (WordPress and Shopify), Am2Am Software</b><span>Custom websites, themes, plugins, payment gateways and React Native apps.</span></div></li>
         <li><time>Ongoing</time><div><b>Freelance on Fiverr and Upwork</b><span>Fiverr Level 2 seller, rated ${e(S.rating)} from ${e(S.reviews)} reviews, clients in ${e(S.countries)} countries.</span></div></li>
       </ol>
-      <div class="stack">
-        <h3>Tools I work with</h3>
-        <div class="stack-groups">
-          <div class="stack-row"><b>E-commerce</b><div class="chips"><span>Shopify</span><span>Liquid</span><span>Replo</span><span>PageFly</span><span>GemPages</span><span>WooCommerce</span></div></div>
-          <div class="stack-row"><b>CMS</b><div class="chips"><span>WordPress</span><span>Elementor</span><span>Gutenberg</span><span>Wix</span><span>HubSpot CMS</span><span>GoHighLevel</span></div></div>
-          <div class="stack-row"><b>Code</b><div class="chips"><span>HTML and CSS</span><span>JavaScript</span><span>PHP</span><span>React</span><span>React Native</span><span>Vue</span></div></div>
-          <div class="stack-row"><b>AI</b><div class="chips"><span>Claude</span><span>ChatGPT</span><span>Custom APIs</span><span>AI agents</span></div></div>
-          <div class="stack-row"><b>Workflow</b><div class="chips"><span>Figma</span><span>Adobe</span><span>cPanel / WHM</span><span>GitHub</span><span>Slack</span><span>Asana</span><span>Basecamp</span></div></div>
-        </div>
-      </div>
+    </div>
+  </div>
+  <div class="wrap toolbox">
+    <h3 class="toolbox-title reveal">Tools I work with every day</h3>
+    <div class="tool-grid">
+      ${[
+        ["E-commerce", "M3 4h2l2.4 11.2a1 1 0 0 0 1 .8h8.9a1 1 0 0 0 1-.8L20 8H6", ["Shopify","Liquid","Replo","PageFly","GemPages","WooCommerce"]],
+        ["CMS and funnels", "M4 5h16v14H4zM4 9h16M9 9v10", ["WordPress","Elementor","Gutenberg","Wix","HubSpot CMS","GoHighLevel"]],
+        ["Code", "M8 8l-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14", ["HTML and CSS","JavaScript","PHP","React","React Native","Vue"]],
+        ["AI", "M12 3l1.8 4.6L18 9l-4.2 1.4L12 15l-1.8-4.6L6 9l4.2-1.4z", ["Claude","ChatGPT","Custom APIs","AI agents"]],
+        ["Workflow", "M4 12h4l3-7 3 14 3-7h3", ["Figma","Adobe","cPanel / WHM","GitHub","Slack","Asana","Basecamp"]],
+      ].map(([t, d, list], i) => `<div class="tool reveal" style="--d:${i * 70}ms"><div class="tool-head"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="${d}"/></svg></span><b>${t}</b></div><div class="chips">${list.map((x) => `<span>${x}</span>`).join("")}</div></div>`).join("")}
     </div>
   </div>
 </section>
