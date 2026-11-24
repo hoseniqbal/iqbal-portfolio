@@ -421,7 +421,7 @@ ol.process{list-style:none;margin:0;padding:0}
 .wa-float .ic{width:28px;height:28px}
 .magnetic{transition:transform .2s ease,background .2s}
 @media (max-width:1080px){.videos{grid-template-columns:1fr 1fr}.video-quote{grid-column:1/-1;order:-1}}
-@media (max-width:960px){.arch{max-width:400px}.fc-1{left:0}.fc-2{right:0}.hero{padding-bottom:56px}}
+@media (max-width:960px){.hero-photo{width:100%}.arch{max-width:400px}.fc-1{left:0}.fc-2{right:0}.hero{padding-bottom:56px}}
 @media (max-width:640px){.videos{grid-template-columns:1fr 1fr;gap:12px}.video .cap{padding:40px 12px 12px}.video .cap b{font-size:14px}.video .cap span{font-size:12px}.video .play{width:54px;height:54px;margin:-27px 0 0 -27px}.rcard{width:290px}.video-quote{padding:30px 24px}.sec-head p{font-size:16px}}
 @media (prefers-reduced-motion:reduce){.split .w>span{transform:none}.rtrack{animation:none}.progress{display:none}}
 
@@ -509,7 +509,8 @@ ol.process{list-style:none;margin:0;padding:0}
   /* hero: photo first, compact */
   .hero{padding:20px 0 48px}
   .hero-grid{gap:8px}
-  .hero-photo{order:-1;max-width:300px;margin:0 auto}
+  .hero-photo{order:-1;width:100%;max-width:300px;margin:0 auto}
+  .arch{width:260px}
   .arch{max-width:260px;border-radius:150px 150px 22px 22px}
   .float-card{display:none}
   .hero-copy{padding:0;text-align:center;display:flex;flex-direction:column;align-items:center}
