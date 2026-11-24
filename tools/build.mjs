@@ -76,8 +76,8 @@ const OSS = [
   ["simple-disable-xml-rpc", "Simple Disable XML-RPC", "One click hardening that closes a common WordPress attack surface."],
 ];
 
-const TITLE = "Iqbal Hossen | Shopify, WordPress and GoHighLevel Developer";
-const DESC = `Iqbal Hossen builds high converting Shopify landing pages, Shopify stores, WordPress websites and GoHighLevel funnels for brands in Germany, the UK, the US and Australia. Rated ${S.rating} from ${S.reviews} reviews on Fiverr.`;
+const TITLE = "Iqbal Hossen | Shopify, WordPress, GoHighLevel and AI Automation Developer";
+const DESC = `Iqbal Hossen builds high converting Shopify landing pages, Shopify stores, WordPress websites, GoHighLevel funnels and AI automation for brands in Germany, the UK, the US and Australia. Rated ${S.rating} from ${S.reviews} reviews on Fiverr.`;
 
 const ld = {
   "@context": "https://schema.org",
@@ -85,7 +85,7 @@ const ld = {
     { "@type": "Person", "@id": SITE + "/#person", name: "Iqbal Hossen", jobTitle: "Shopify, WordPress and GoHighLevel Developer", url: SITE + "/", image: SITE + "/assets/img/iqbal-avatar.webp",
       address: { "@type": "PostalAddress", addressCountry: "BD" },
       worksFor: { "@type": "Organization", name: "TechSkills Institute", url: "https://techskills.institute/" },
-      knowsAbout: ["Shopify", "Shopify landing pages", "Replo", "PageFly", "GemPages", "WordPress", "Elementor", "WooCommerce", "GoHighLevel", "Wix", "HubSpot CMS", "Technical SEO", "Web performance", "AI automation"],
+      knowsAbout: ["Shopify", "Shopify landing pages", "Replo", "PageFly", "GemPages", "WordPress", "Elementor", "WooCommerce", "GoHighLevel", "Wix", "HubSpot CMS", "Technical SEO", "Web performance", "AI automation", "AI agents", "AI chatbots", "Claude", "ChatGPT"],
       sameAs: [C.fiverr, C.upwork, C.github] },
     { "@type": "ProfessionalService", "@id": SITE + "/#service", name: "Iqbal Hossen Web Development", url: SITE + "/", image: SITE + "/assets/img/og.jpg", founder: { "@id": SITE + "/#person" },
       areaServed: "Worldwide", priceRange: "$$", telephone: "+" + WA,
@@ -144,7 +144,7 @@ const page = `<!doctype html>
   <nav class="wrap nav" aria-label="Main">
     <a class="brand" href="/" aria-label="Iqbal Hossen, home"><span class="brand-mark" aria-hidden="true">i</span><span>Iqbal Hossen<small>Shopify · WordPress · GHL</small></span></a>
     <ul class="nav-links" id="nav-links">
-      <li><a href="#work">Work</a></li><li><a href="#services">Services</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#about">About</a></li><li><a href="#faq">FAQ</a></li>
+      <li><a href="#work">Work</a></li><li><a href="#services">Services</a></li><li><a href="#ai">AI</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#about">About</a></li><li><a href="#faq">FAQ</a></li>
     </ul>
     <div class="nav-cta">
       <a class="btn btn-ghost btn-sm hide-m" href="${e(C.fiverr)}" target="_blank" rel="noopener">Fiverr profile</a>
@@ -239,6 +239,37 @@ const page = `<!doctype html>
         <h3>AI site to WordPress</h3><p>Built something in Lovable, Base44 or Replit? I turn it into a real WordPress or Shopify site you can host, edit and rank.</p><ul><li>Lovable</li><li>Base44</li><li>Replit</li></ul></article>
       <article class="svc reveal" style="--d:160ms"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="7" rx="1.5"/><rect x="3" y="13" width="18" height="7" rx="1.5"/><path d="M7 7.5h.01M7 16.5h.01"/></svg></div>
         <h3>Hosting, speed and care</h3><p>Migrations, cPanel and WHM hosting, security clean ups, speed optimization and technical SEO, plus Wix and HubSpot sites.</p><ul><li>cPanel / WHM</li><li>Core Web Vitals</li><li>Wix</li><li>HubSpot</li></ul></article>
+    </div>
+  </div>
+</section>
+
+
+<section class="section ai-sec" id="ai">
+  <div class="wrap">${head("AI powered", 'AI that does real work <span class="serif">for your business.</span>', "I use AI every day to build faster, and I build AI into my clients' stores, websites and funnels. Practical tools that save time and bring in leads, not gimmicks.")}
+    <div class="ai-grid">
+      <div class="ai-cards">
+        ${[
+          ["M8 10h8M8 14h5M21 12c0 4.4-4 8-9 8-1.5 0-2.9-.3-4.1-.9L3 20l1.3-3.9C3.5 14.9 3 13.5 3 12c0-4.4 4-8 9-8s9 3.6 9 8z", "AI chat and booking agents", "Agents that answer questions, qualify leads and book calls around the clock, inside GoHighLevel or on your website."],
+          ["M4 12h4l3-7 3 14 3-7h3", "AI automation workflows", "Follow ups, lead routing, CRM updates and reports that run on their own, connected through custom APIs."],
+          ["M12 3l1.8 4.6L18 9l-4.2 1.4L12 15l-1.8-4.6L6 9l4.2-1.4zM18 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z", "AI built sites, made real", "Lovable, Base44 or Replit prototypes rebuilt as fast, editable WordPress or Shopify sites that can rank and convert."],
+          ["M4 5h16v14H4zM4 15l4-4 4 4 3-3 5 5", "AI product visuals", "Lifestyle shots, model photos and ad creatives generated from your real product, ready for landing pages and ads."],
+          ["M8 8l-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14", "AI features in your site", "Smart product recommendations, AI generated descriptions, size advice and search, built into WordPress, WooCommerce or Shopify."],
+          ["M12 6v6l4 2M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z", "Faster delivery for you", "AI handles research, first drafts and repetitive code, so you get your project sooner. I review and test every line by hand."],
+        ].map(([d, t, x], i) => `<article class="ai-card reveal" style="--d:${(i % 2) * 80}ms"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="${d}"/></svg></span><h3>${t}</h3><p>${x}</p></article>`).join("")}
+      </div>
+      <div class="ai-demo reveal" aria-label="Example of an AI assisted workflow">
+        <div class="ai-bar"><i></i><i></i><i></i><span>my workflow</span></div>
+        <div class="ai-body" id="ai-log" aria-live="off">
+          <p class="ln"><span class="k">brief</span> Landing page for a collagen brand, German market, Meta ads</p>
+          <p class="ln"><span class="k ai">ai</span> Research: 12 competitor pages, top objections, offer ideas</p>
+          <p class="ln"><span class="k ai">ai</span> Draft: page structure, headline options, FAQ</p>
+          <p class="ln"><span class="k me">iqbal</span> Pick the angle, design the sections, build in Shopify</p>
+          <p class="ln"><span class="k ai">ai</span> Write alt text, check copy, generate product scenes</p>
+          <p class="ln"><span class="k me">iqbal</span> Test on real phones, speed check, final review</p>
+          <p class="ln done"><span class="k ok">live</span> Delivered in 2 days. Ready for ads.</p>
+        </div>
+        <div class="ai-tools"><span>Claude</span><span>ChatGPT</span><span>Higgsfield</span><span>Custom APIs</span><span>GHL Conversation AI</span></div>
+      </div>
     </div>
   </div>
 </section>

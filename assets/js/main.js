@@ -142,6 +142,25 @@
     }, { once: true });
   });
 
+
+  /* AI workflow demo: reveal lines one by one, then loop */
+  var log = doc.getElementById("ai-log");
+  if (log && !reduce && "IntersectionObserver" in win) {
+    var lines = log.querySelectorAll(".ln"), timer = null;
+    log.classList.add("play");
+    function run() {
+      var i = 0;
+      lines.forEach(function (l) { l.classList.remove("on"); });
+      (function next() {
+        if (i < lines.length) { lines[i++].classList.add("on"); timer = setTimeout(next, 750); }
+        else { timer = setTimeout(run, 3500); }
+      })();
+    }
+    new IntersectionObserver(function (en) {
+      en.forEach(function (x) { if (x.isIntersecting && !timer) run(); });
+    }, { threshold: 0.3 }).observe(log);
+  }
+
   /* Brief form to WhatsApp */
   var form = doc.getElementById("brief");
   if (form) {

@@ -1,12 +1,14 @@
 # Iqbal Hossen
 
-> Shopify, WordPress and GoHighLevel developer based in Bangladesh, working with brands in Germany, Switzerland, the UK, the US and Australia. Rated 5.0 from 89 reviews on Fiverr (Level 2).
+> Shopify, WordPress, GoHighLevel and AI automation developer based in Bangladesh, working with brands in Germany, Switzerland, the UK, the US and Australia. Rated 5.0 from 89 reviews on Fiverr (Level 2).
 
 ## Services
 - Shopify landing pages for paid ads (Replo, PageFly, GemPages), from $120
 - Shopify store design and redesign, from $180
 - WordPress business websites (Elementor, Gutenberg, WooCommerce), from $250
 - GoHighLevel funnels, workflows and AI agents, from $130
+- AI agents, chatbots and automation (GoHighLevel Conversation AI, Claude, ChatGPT, custom APIs)
+- AI built sites (Lovable, Base44, Replit) rebuilt as WordPress or Shopify
 - Hourly work and maintenance at $25 per hour
 
 ## Contact
