@@ -87,7 +87,8 @@ h1,h2,h3{margin:0;font-weight:600;letter-spacing:-.025em;line-height:1.08}
 .proof{display:flex;gap:34px;margin-top:48px;flex-wrap:wrap}
 .proof div{min-width:110px}
 .proof strong{display:block;font-size:30px;letter-spacing:-.03em;line-height:1.1}
-.proof span{font-size:14px;color:var(--muted)}
+.proof div>span{font-size:14px;color:var(--muted)}
+.proof strong .stars{font-size:15px}
 .stars{color:var(--gold);letter-spacing:2px;font-size:15px}
 .hero-photo{position:relative;display:flex;justify-content:center}
 .arch{position:relative;width:100%;max-width:460px;aspect-ratio:754/840;border-radius:240px 240px 28px 28px;background:linear-gradient(180deg,#ECE8DF 0%,#E2DDD1 100%);border:1px solid var(--line);overflow:hidden;box-shadow:var(--shadow)}
