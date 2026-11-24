@@ -569,3 +569,4 @@ ol.process{list-style:none;margin:0;padding:0}
   .sec-head{margin-bottom:30px}
   .sec-head h2{font-size:32px}
 }
+.lp-grid>*,.ai-grid>*,.about-grid>*,.contact>*,.hero-grid>*{min-width:0}
