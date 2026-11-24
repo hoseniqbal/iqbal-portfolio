@@ -304,7 +304,7 @@ const page = `<!doctype html>
     </div>
     <div class="videos m-carousel">
       <button class="video reveal" data-yt="g5_53jJT79w" aria-label="Play video review from Gisela Sanders Alcántara">
-        <img src="https://i.ytimg.com/vi/g5_53jJT79w/hq720.jpg" alt="Video review from Gisela Sanders Alcántara" loading="lazy" width="405" height="720" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/g5_53jJT79w/hqdefault.jpg'">
+        <img src="https://i.ytimg.com/vi/g5_53jJT79w/oardefault.jpg" alt="Video review from Gisela Sanders Alcántara" loading="lazy" width="405" height="720" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/g5_53jJT79w/hqdefault.jpg'">
         <span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l14 8-14 8z"/></svg></span>
         <span class="cap"><b>Gisela Sanders Alcántara</b><span>Author and speaker · giselasa.com</span></span>
       </button>
@@ -315,7 +315,7 @@ const page = `<!doctype html>
         <div class="vq-stats"><div><b>${e(S.rating)}</b><span>average rating</span></div><div><b>${e(S.countries)}</b><span>countries</span></div><div><b>10+</b><span>repeat clients</span></div></div>
       </div>
       <button class="video reveal" style="--d:200ms" data-yt="YJRHXkw92yY" aria-label="Play video review from Michaela">
-        <img src="https://i.ytimg.com/vi/YJRHXkw92yY/hq720.jpg" alt="Video review from Michaela" loading="lazy" width="405" height="720" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/YJRHXkw92yY/hqdefault.jpg'">
+        <img src="https://i.ytimg.com/vi/YJRHXkw92yY/oardefault.jpg" alt="Video review from Michaela" loading="lazy" width="405" height="720" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/YJRHXkw92yY/hqdefault.jpg'">
         <span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l14 8-14 8z"/></svg></span>
         <span class="cap"><b>Michaela</b><span>Video review</span></span>
       </button>
@@ -325,6 +325,7 @@ const page = `<!doctype html>
     <div class="rrow"><div class="rtrack">${rowA}${rowA}</div></div>
     <div class="rrow rev"><div class="rtrack">${rowB}${rowB}</div></div>
   </div>
+  <div class="wrap"><div class="rv-mobile m-carousel" aria-label="Written reviews from Fiverr">${C.reviews.map(reviewCard).join("")}</div><p class="swipe-hint">Swipe for more reviews →</p></div>
   <div class="wrap rev-more">
     <a class="btn btn-ghost" href="${e(C.fiverr)}" target="_blank" rel="noopener">Read all ${e(S.reviews)} reviews on Fiverr ${ARROW}</a>
     <a class="btn btn-ghost" href="${e(C.upwork)}" target="_blank" rel="noopener">View Upwork profile ${ARROW}</a>
