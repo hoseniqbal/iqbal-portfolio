@@ -511,6 +511,7 @@ ol.process{list-style:none;margin:0;padding:0}
   .hero-grid{gap:8px}
   .hero-photo{order:-1;width:100%;max-width:300px;margin:0 auto}
   .arch{width:260px}
+  .arch img{width:92%}
   .arch{max-width:260px;border-radius:150px 150px 22px 22px}
   .float-card{display:none}
   .hero-copy{padding:0;text-align:center;display:flex;flex-direction:column;align-items:center}
