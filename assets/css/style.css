@@ -504,7 +504,6 @@ ol.process{list-style:none;margin:0;padding:0}
 @media (max-width:640px){.ai-cards{grid-template-columns:1fr}}
 
 /* ===== Mobile v4 ===== */
-.swipe-hint{display:none}
 @media (max-width:640px){
   /* hero: photo first, compact */
   .hero{padding:20px 0 48px}
@@ -539,10 +538,6 @@ ol.process{list-style:none;margin:0;padding:0}
   .videos.m-carousel>*{flex-basis:72%}
   .videos.m-carousel>.video-quote{flex-basis:88%;order:0}
   .videos .video{max-height:none}
-  .price-grid.m-carousel{padding-top:18px}
-  .price-grid.m-carousel>.price{flex-basis:86%}
-  .swipe-hint{display:flex;justify-content:center;gap:6px;align-items:center;font-size:12.5px;color:var(--muted);margin-top:2px}
-  .dark .swipe-hint,.ai-sec .swipe-hint{color:var(--dark-muted)}
 
   /* specialty: hide decorative screenshots on phones */
   .stack-shots{display:none}
@@ -571,10 +566,30 @@ ol.process{list-style:none;margin:0;padding:0}
   .sec-head h2{font-size:32px}
 }
 .lp-grid>*,.ai-grid>*,.about-grid>*,.contact>*,.hero-grid>*{min-width:0}
-.rv-mobile,.rv-mobile+.swipe-hint{display:none}
+
+/* ===== carousel arrows + even spacing (mobile) ===== */
+.c-nav{display:none}
 @media (max-width:640px){
-  .review-wall{display:none}
-  .rv-mobile{display:flex!important;margin-top:24px}
-  .rv-mobile+.swipe-hint{display:flex}
-  .rv-mobile>.rcard{flex-basis:84%;width:auto}
+  .c-nav{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:6px}
+  .c-btn{width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--ink);display:grid;place-items:center;cursor:pointer;transition:background .2s,color .2s,opacity .2s,transform .15s;padding:0}
+  .c-btn:active{transform:scale(.94)}
+  .c-btn svg{width:18px;height:18px}
+  .c-btn[disabled]{opacity:.35;cursor:default}
+  .c-count{font-size:13px;color:var(--muted);min-width:44px;text-align:center;font-variant-numeric:tabular-nums}
+  .dark .c-btn,.ai-sec .c-btn{background:var(--dark-2);border-color:var(--dark-line);color:#fff}
+  .dark .c-count,.ai-sec .c-count{color:var(--dark-muted)}
+  .m-carousel{padding-bottom:10px}
+  /* one rhythm for every section */
+  .section,#services,#process,#about,#reviews,#faq,#ai,#landing-pages,#open-source,#pricing,#work{padding:56px 0}
+  #contact{padding:0 0 56px}
+  .hero{padding:16px 0 48px}
+  .sec-head{margin-bottom:28px}
+  .toolbox{margin-top:40px}
+  .rev-more{margin-top:24px}
+  .review-wall{margin-top:24px;gap:12px}
+  .rcard{width:270px}
+  .price-grid{grid-template-columns:1fr;gap:16px}
+  .price .muted{min-height:0}
+  .index{margin-top:32px}
+  .footer{padding:44px 0 32px}
 }

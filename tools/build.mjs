@@ -196,7 +196,6 @@ const page = `<!doctype html>
       </div>`)}
     <div class="work-grid m-carousel">${workCards}
     </div>
-    <p class="swipe-hint">Swipe to see more →</p>
     <details class="index reveal">
       <summary><span>Full project list<small>${TOTAL} live websites across Shopify, WordPress, Wix and HubSpot</small></span><span class="plus" aria-hidden="true">+</span></summary>
       <div class="index-body">${indexCols}</div>
@@ -283,15 +282,13 @@ const page = `<!doctype html>
       <li class="step reveal" style="--d:200ms"><h3>Build with updates</h3><p>I build on a draft theme or staging site, so your live store is never touched until you approve.</p></li>
       <li class="step reveal" style="--d:300ms"><h3>Launch and support</h3><p>We go live together. Small fixes after launch are included, and you get a simple handover.</p></li>
     </ol>
-    <p class="swipe-hint">Swipe to see more →</p>
   </div>
 </section>
 
 <section class="section band" id="pricing">
   <div class="wrap">${head("Pricing", 'Honest starting prices. <span class="serif">Fixed quote before we start.</span>', "The final price depends on your scope. You always get a fixed quote first, with no hidden extras.")}
-    <div class="price-grid m-carousel">${pricing}
+    <div class="price-grid">${pricing}
     </div>
-    <p class="swipe-hint">Swipe to see more →</p>
     <p class="price-note">Ongoing updates, fixes and maintenance: <strong>$${e(C.hourly_rate)} per hour</strong>. Also available on <a href="${e(C.fiverr)}" target="_blank" rel="noopener">Fiverr</a> and <a href="${e(C.upwork)}" target="_blank" rel="noopener">Upwork</a>.</p>
   </div>
 </section>
@@ -325,7 +322,6 @@ const page = `<!doctype html>
     <div class="rrow"><div class="rtrack">${rowA}${rowA}</div></div>
     <div class="rrow rev"><div class="rtrack">${rowB}${rowB}</div></div>
   </div>
-  <div class="wrap"><div class="rv-mobile m-carousel" aria-label="Written reviews from Fiverr">${C.reviews.map(reviewCard).join("")}</div><p class="swipe-hint">Swipe for more reviews →</p></div>
   <div class="wrap rev-more">
     <a class="btn btn-ghost" href="${e(C.fiverr)}" target="_blank" rel="noopener">Read all ${e(S.reviews)} reviews on Fiverr ${ARROW}</a>
     <a class="btn btn-ghost" href="${e(C.upwork)}" target="_blank" rel="noopener">View Upwork profile ${ARROW}</a>
