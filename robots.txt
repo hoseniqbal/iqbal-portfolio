@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://iqbalhossen.vercel.app/sitemap.xml

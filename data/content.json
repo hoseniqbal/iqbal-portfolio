@@ -6,34 +6,67 @@
   "fiverr": "https://www.fiverr.com/iqbal138",
   "upwork": "https://www.upwork.com/freelancers/~01f6502fd88cd6b504",
   "github": "https://github.com/hoseniqbal",
+  "available": true,
+  "stats": {
+    "rating": "5.0",
+    "reviews": "89",
+    "five_star": "88",
+    "websites": "150+",
+    "years": "5+",
+    "countries": "17+"
+  },
 
   "featured": [
-    {"slug":"justpeloponnes","name":"Just Peloponnes","url":"https://just-peloponnes.de/pages/olivenol-ads","cat":"landing","tags":["Shopify","Ad landing page"],"market":"Germany","desc":"Ad landing page for a family olive-oil brand from the Peloponnese, built to convert cold Meta traffic."},
-    {"slug":"phoebe","name":"PHOEBÉ Kollagen","url":"https://www.phoebecare.de/pages/kollagen-pur-pulver-30-sticks","cat":"landing","tags":["Shopify","Product page"],"market":"Germany","desc":"Collagen supplement page with bundle selector, per-stick pricing and trust sections."},
-    {"slug":"titanboard","name":"TitanBoard®","url":"https://titanboard.ch/pages/titanboard%C2%AE-schneidebrett-ohne-mikroplastik","cat":"landing","tags":["Shopify","Ad landing page"],"market":"Switzerland","desc":"Bilingual landing page for a titanium cutting board, with quantity offers in CHF."},
-    {"slug":"homardo","name":"Homardo YouGlow","url":"https://homardo.de/pages/youglow-face-landing","cat":"landing","tags":["Shopify","Advertorial"],"market":"Germany","desc":"Problem-vs-solution landing page for a daily SPF 50+ face cream."},
-    {"slug":"nepimi","name":"Nepimi Organics","url":"https://nepimi.com/","cat":"store","tags":["Shopify","Full store"],"market":"USA","desc":"Complete Shopify store for a topical joint-comfort cream for women over 50."},
-    {"slug":"tajati","name":"TAJATI® Original","url":"https://tajati.de/products/tajati%C2%AE-original","cat":"landing","tags":["Shopify","Product page"],"market":"Germany","desc":"High-ticket supplement product page with tiered bundles and free-gift offer."},
-    {"slug":"primeflow","name":"PrimeFlow Journal","url":"https://primeflowjournal.com/","cat":"store","tags":["Shopify","Brand store"],"market":"UK & EU","desc":"Dark, bold one-product store for a 90-day focus journal."},
-    {"slug":"drwuffy","name":"Dr. Wuffy","url":"https://dr-wuffy.de/products/gelenksupplement-hund","cat":"landing","tags":["Shopify","Product page"],"market":"Germany","desc":"Science-led product page for a joint supplement for dogs."},
-    {"slug":"mplus","name":"Mplus Design","url":"https://mplus.berlin/pages/backpack","cat":"landing","tags":["Shopify","Product page"],"market":"Germany","desc":"Minimal, premium product page for a handmade Italian leather backpack."},
-    {"slug":"smarttassen","name":"viva Smart Tassen","url":"https://smarttassen.de/pages/mainz-stadttasse","cat":"landing","tags":["Shopify","Landing page"],"market":"Germany","desc":"Landing page for a city mug with NFC photo-album, built for seasonal campaigns."},
-    {"slug":"happyfeedbag","name":"Happy Feedbag","url":"https://www.happyfeedbag.de/pages/zartes-landhuhn-trockenfutter","cat":"landing","tags":["Shopify","Subscription"],"market":"Germany","desc":"Dog-food landing page with guarantee and subscription (HappyAbo) offer."},
-    {"slug":"ostseefolien","name":"Ostsee Folien","url":"https://ostseefolien.shop/","cat":"store","tags":["Shopify","Full store"],"market":"Germany","desc":"Storefront for a professional aluminium squeegee for foil installers."},
-    {"slug":"stclair","name":"St. Clair London","url":"https://www.stclairlondon.com/","cat":"store","tags":["Shopify","Fashion"],"market":"UK","desc":"Editorial fashion store for contemporary floral cotton dresses."},
-    {"slug":"techskills","name":"TechSkills Institute","url":"https://techskills.institute/","cat":"wordpress","tags":["WordPress","Elementor"],"market":"Australia","desc":"Education site for IT job-ready programs across Sydney, Melbourne and Perth."},
-    {"slug":"mintmuseum","name":"The Mint Museum","url":"https://www.mintmuseum.org/","cat":"wordpress","tags":["WordPress","Culture"],"market":"USA","desc":"Website work for North Carolina's first art museum."},
-    {"slug":"creditpros","name":"The Credit Pros","url":"https://thecreditpros.com/","cat":"wordpress","tags":["WordPress","Finance"],"market":"USA","desc":"Lead-generation website for a US credit repair company."},
-    {"slug":"gisela","name":"Gisela Sanders Alcántara","url":"https://giselasa.com/","cat":"wordpress","tags":["WordPress","Personal brand"],"market":"USA","desc":"Personal brand website for an author and speaker."},
-    {"slug":"blunsdon","name":"Blunsdon Abbey Park","url":"https://blunsdonabbey.co.uk/","cat":"wordpress","tags":["WordPress","Real estate"],"market":"UK","desc":"Website for a residential park-homes community in Wiltshire."},
-    {"slug":"broughton","name":"Broughton Group","url":"https://www.broughton-group.com/","cat":"other","tags":["HubSpot CMS","B2B"],"market":"UK","desc":"Corporate site for a testing, consultancy and compliance group."},
-    {"slug":"lunchbox","name":"Lunch Box Catering","url":"https://www.lunchboxcatering.co.uk/","cat":"other","tags":["Wix","Food"],"market":"UK","desc":"Catering website with online ordering for a Basingstoke food business."}
+    {"name":"Just Peloponnes","url":"https://just-peloponnes.de/pages/olivenol-ads","image":"/assets/work/justpeloponnes.webp","cat":"landing","tags":["Shopify","Ad landing page"],"market":"Germany","desc":"Ad landing page for a family olive oil brand from the Peloponnese, built to convert cold Meta traffic."},
+    {"name":"PHOEBÉ Kollagen","url":"https://www.phoebecare.de/pages/kollagen-pur-pulver-30-sticks","image":"/assets/work/phoebe.webp","cat":"landing","tags":["Shopify","Product page"],"market":"Germany","desc":"Collagen supplement page with bundle selector, per stick pricing and trust sections."},
+    {"name":"TitanBoard®","url":"https://titanboard.ch/pages/titanboard%C2%AE-schneidebrett-ohne-mikroplastik","image":"/assets/work/titanboard.webp","cat":"landing","tags":["Shopify","Ad landing page"],"market":"Switzerland","desc":"Bilingual landing page for a titanium cutting board, with quantity offers in CHF."},
+    {"name":"Homardo YouGlow","url":"https://homardo.de/pages/youglow-face-landing","image":"/assets/work/homardo.webp","cat":"landing","tags":["Shopify","Advertorial"],"market":"Germany","desc":"Problem and solution landing page for a daily SPF 50+ face cream."},
+    {"name":"Nepimi Organics","url":"https://nepimi.com/","image":"/assets/work/nepimi.webp","cat":"store","tags":["Shopify","Full store"],"market":"USA","desc":"Complete Shopify store for a topical joint comfort cream for women over 50."},
+    {"name":"TAJATI® Original","url":"https://tajati.de/products/tajati%C2%AE-original","image":"/assets/work/tajati.webp","cat":"landing","tags":["Shopify","Product page"],"market":"Germany","desc":"High ticket supplement product page with tiered bundles and a free gift offer."},
+    {"name":"PrimeFlow Journal","url":"https://primeflowjournal.com/","image":"/assets/work/primeflow.webp","cat":"store","tags":["Shopify","Brand store"],"market":"UK and EU","desc":"Dark, bold one product store for a 90 day focus journal."},
+    {"name":"Dr. Wuffy","url":"https://dr-wuffy.de/products/gelenksupplement-hund","image":"/assets/work/drwuffy.webp","cat":"landing","tags":["Shopify","Product page"],"market":"Germany","desc":"Science led product page for a joint supplement for dogs."},
+    {"name":"Mplus Design","url":"https://mplus.berlin/pages/backpack","image":"/assets/work/mplus.webp","cat":"landing","tags":["Shopify","Product page"],"market":"Germany","desc":"Minimal, premium product page for a handmade Italian leather backpack."},
+    {"name":"viva Smart Tassen","url":"https://smarttassen.de/pages/mainz-stadttasse","image":"/assets/work/smarttassen.webp","cat":"landing","tags":["Shopify","Landing page"],"market":"Germany","desc":"Landing page for a city mug with an NFC photo album, built for seasonal campaigns."},
+    {"name":"Happy Feedbag","url":"https://www.happyfeedbag.de/pages/zartes-landhuhn-trockenfutter","image":"/assets/work/happyfeedbag.webp","cat":"landing","tags":["Shopify","Subscription"],"market":"Germany","desc":"Dog food landing page with a guarantee and a subscription (HappyAbo) offer."},
+    {"name":"Ostsee Folien","url":"https://ostseefolien.shop/","image":"/assets/work/ostseefolien.webp","cat":"store","tags":["Shopify","Full store"],"market":"Germany","desc":"Storefront for a professional aluminium squeegee made for foil installers."},
+    {"name":"St. Clair London","url":"https://www.stclairlondon.com/","image":"/assets/work/stclair.webp","cat":"store","tags":["Shopify","Fashion"],"market":"UK","desc":"Editorial fashion store for contemporary floral cotton dresses."},
+    {"name":"TechSkills Institute","url":"https://techskills.institute/","image":"/assets/work/techskills.webp","cat":"wordpress","tags":["WordPress","Elementor"],"market":"Australia","desc":"Education site for IT job ready programs across Sydney, Melbourne and Perth."},
+    {"name":"The Mint Museum","url":"https://www.mintmuseum.org/","image":"/assets/work/mintmuseum.webp","cat":"wordpress","tags":["WordPress","Culture"],"market":"USA","desc":"Website work for North Carolina's first art museum."},
+    {"name":"Gisela Sanders Alcántara","url":"https://giselasa.com/","image":"/assets/work/gisela.webp","cat":"wordpress","tags":["WordPress","Personal brand"],"market":"USA","desc":"Personal brand website for an author and speaker. She is also a repeat client."},
+    {"name":"Blunsdon Abbey Park","url":"https://blunsdonabbey.co.uk/","image":"/assets/work/blunsdon.webp","cat":"wordpress","tags":["WordPress","Real estate"],"market":"UK","desc":"Website for a residential park homes community in Wiltshire."},
+    {"name":"Broughton Group","url":"https://www.broughton-group.com/","image":"/assets/work/broughton.webp","cat":"other","tags":["HubSpot CMS","B2B"],"market":"UK","desc":"Corporate site for a testing, consultancy and compliance group."},
+    {"name":"Lunch Box Catering","url":"https://www.lunchboxcatering.co.uk/","image":"/assets/work/lunchbox.webp","cat":"other","tags":["Wix","Food"],"market":"UK","desc":"Catering website with online ordering for a Basingstoke food business."}
   ],
 
-  "index": {
-    "Shopify": ["stclairlondon.com","correxiko.com","adkfragrancefarm.com","felinestop.com","nepimi.com","primeflowjournal.com","ostseefolien.shop","just-peloponnes.de","phoebecare.de","titanboard.ch","homardo.de","pheniox.de","tajati.de","smarttassen.de","happyfeedbag.de","dr-wuffy.de","mplus.berlin"],
-    "WordPress · Part 1": ["blunsdonabbey.co.uk","foretwoaccounting.co.uk","foretwogroup.co.uk","medconnectusa.com","healthplansny.com","ampaesthetics.com","soprow.com","che.institute","activecarelink.com.au","techskills.institute","activeit.net.au","ninjatechs.com.au","ultimateitsupport.com.au","alphexpaintingandremodeling.com","berkshireroofs.co.uk","thecreditpros.com","mintmuseum.org","encantatalentmanagement.com"],
-    "WordPress · Part 2": ["talent-shore.com","globalcitizenshq.com","superchargedoffers.com","bluellama.co.uk","peekabooworld.com","finanzportal24.de","edgewatercustompools.com","ariahandmade.com","maoriental.co.uk","newdayproperties.com","victorvoltage.org","everbrave.com","wisenvesting.com","daddylovesbirthdays.org","publichealthsavvy.com","digitalcctv.com.au","roofersassociation.co.uk","toptechnv.com"],
-    "WordPress, Wix & more": ["goldencoastmed.com","hallfare.com","noblenomads.nl","onthegoterminal.co.uk","reforesttheearth.com","serpadigital.ro","zinohapharmacy.com","giselasa.com","yumohyum.com","book.ceramiccoatingsredding.com","datingisfordummies.com","lunchboxcatering.co.uk","alohatinyhales.com","broughton-group.com"]
-  }
+  "reviews": [
+    {"name":"evotec","country":"Germany","project":"Website design","text":"For the work he has done the pricing was rather fair. He did finish the job even earlier as expected and the communication was just great. He fully understood any of our requirements and implemented them well into the project."},
+    {"name":"giselasandersal","country":"United States","project":"Repeat client","text":"I love working with Iqbal. He is so gentle with feedback, he is patient explaining unfamiliar processes and concepts, he is quick to understand what I want to do, and he provides ideas that fit our goals."},
+    {"name":"shawntyrell","country":"United States","project":"Shopify landing page","text":"I had an AMAZING experience working with this designer. The landing page they built for my Shopify store turned out absolutely perfect."},
+    {"name":"msit_solutions","country":"Germany","project":"Corporate website","text":"The development of our corporate website was outstanding. The communication was very clear und timely. We also really like the result."},
+    {"name":"younesrcd","country":"Canada","project":"Elementor fix","text":"I do website development and technical work myself, so my task was not easy and basic, but he was able to do it very rapidly."},
+    {"name":"vanessa_360","country":"United States","project":"Repeat client","text":"I have engaged this vendor multiple times, and I consistently find myself returning due to the outstanding quality of his work. His ability to meet our specific requirements is remarkable, and he always delivers on time."},
+    {"name":"wayneinparis","country":"United States","project":"Repeat client","text":"I've worked with iqbal138 several times, and he continues to impress me every single time."},
+    {"name":"josephsacco245","country":"United States","project":"WordPress","text":"He was amazing. He was responsive and communicated extensively. He was fast and thorough. Highly recommend and will use again!"},
+    {"name":"kimberlyseals","country":"United States","project":"Website development","text":"Iqbal Hossen truly shines in website development, exceeding expectations with professional work and a good eye. Highly recommend!"},
+    {"name":"jwlgroup","country":"United States","project":"First business website","text":"This was my first time getting a website built for my business. I am pleased beyond words."},
+    {"name":"paugra","country":"United States","project":"Ongoing collaboration","text":"I am truly satisfied with his work and the quick but also well done service. I will for sure work with him again."},
+    {"name":"phil_ivan","country":"Nepal","project":"Customization","text":"This is the best service I have ever received. He went above and beyond, following every instruction I provided. He completed it ahead of time."},
+    {"name":"mcjack","country":"Australia","project":"Repeat client","text":"Job done very well. He is also very professional, communication is great. Delivered the job very quick."},
+    {"name":"john_nice5","country":"Spain","project":"Customization","text":"Everything was perfect: the delivery exceeded my expectations and captured all the specifications I had. Communication was excellent."}
+  ],
+
+  "pricing": [
+    {"name":"Shopify landing page","sub":"One high converting product or ad landing page.","price":"120","eta":"2 to 3 days","featured":false,"items":["Replo, PageFly, GemPages or theme sections","Offer, bundle and review sections","Mobile first and speed checked","Clone of a reference page if you want"],"wa":"Hi Iqbal, I need a Shopify landing page."},
+    {"name":"Shopify store","sub":"Store design or redesign, up to 5 key pages.","price":"180","eta":"about 5 days","featured":true,"items":["Home, product, collection, about, contact","Trust, reviews and FAQ sections","EU ready: languages, EUR or CHF, legal pages","Speed and mobile checks"],"wa":"Hi Iqbal, I'd like a quote for a Shopify store."},
+    {"name":"WordPress website","sub":"A complete business website your team can edit.","price":"250","eta":"about 7 days","featured":false,"items":["Elementor or Gutenberg","Up to 5 pages and contact forms","On page SEO and analytics","Short video on how to edit"],"wa":"Hi Iqbal, I need a WordPress website."},
+    {"name":"GHL automation","sub":"Funnels, workflows and AI agents in GoHighLevel.","price":"130","eta":"about 4 days","featured":false,"items":["Lead follow up workflows","AI agent with calendar booking","Shopify and form integrations","Documented and easy to change"],"wa":"Hi Iqbal, I need help with GoHighLevel automation."}
+  ],
+  "hourly_rate": "25",
+
+  "index": [
+    {"title":"Shopify","sites":["stclairlondon.com","correxiko.com","adkfragrancefarm.com","felinestop.com","nepimi.com","primeflowjournal.com","ostseefolien.shop","just-peloponnes.de","phoebecare.de","titanboard.ch","homardo.de","pheniox.de","tajati.de","smarttassen.de","happyfeedbag.de","dr-wuffy.de","mplus.berlin"]},
+    {"title":"WordPress","sites":["blunsdonabbey.co.uk","foretwoaccounting.co.uk","foretwogroup.co.uk","medconnectusa.com","healthplansny.com","ampaesthetics.com","soprow.com","che.institute","activecarelink.com.au","techskills.institute","activeit.net.au","ninjatechs.com.au","ultimateitsupport.com.au","alphexpaintingandremodeling.com","berkshireroofs.co.uk","mintmuseum.org","encantatalentmanagement.com","talent-shore.com"]},
+    {"title":"WordPress","sites":["globalcitizenshq.com","superchargedoffers.com","bluellama.co.uk","peekabooworld.com","finanzportal24.de","edgewatercustompools.com","ariahandmade.com","maoriental.co.uk","newdayproperties.com","victorvoltage.org","everbrave.com","wisenvesting.com","daddylovesbirthdays.org","publichealthsavvy.com","digitalcctv.com.au","roofersassociation.co.uk","toptechnv.com"]},
+    {"title":"WordPress, Wix and more","sites":["goldencoastmed.com","hallfare.com","noblenomads.nl","onthegoterminal.co.uk","reforesttheearth.com","serpadigital.ro","zinohapharmacy.com","giselasa.com","yumohyum.com","book.ceramiccoatingsredding.com","datingisfordummies.com","lunchboxcatering.co.uk","alohatinyhales.com","broughton-group.com"]}
+  ]
 }

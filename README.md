@@ -1,10 +1,9 @@
-# Iqbal Hossen — portfolio
+# Iqbal Hossen portfolio
 
-Static site, hosted on Vercel. No framework, no build step on Vercel.
+Static site on Vercel. All content lives in `data/content.json`; `tools/build.mjs` turns it into `dist/` on every deploy.
 
 ## Edit content
-1. Change `data/content.json` (projects, WhatsApp number, links, `site_url`).
-2. Run `python3 tools/build.py` to regenerate `index.html`, `sitemap.xml` and `robots.txt`.
-3. Commit and push. Vercel deploys automatically.
+- Easiest: open `/admin/` on the live site and sign in with a GitHub personal access token. Saving commits to this repo and Vercel redeploys in about a minute.
+- Or edit `data/content.json` directly on GitHub.
 
-Project screenshots live in `assets/work/<slug>.webp` (800×500).
+Local build: `node tools/build.mjs`

@@ -1,0 +1,92 @@
+# Dashboard for iqbal-portfolio. Open https://YOUR-DOMAIN/admin/
+# Sign in with a GitHub personal access token (repo: hoseniqbal/iqbal-portfolio, Contents: read and write).
+backend:
+  name: github
+  repo: hoseniqbal/iqbal-portfolio
+  branch: main
+  commit_messages:
+    update: "Update {{slug}} from dashboard"
+media_folder: assets/work
+public_folder: /assets/work
+site_url: https://iqbalhossen.vercel.app
+display_url: https://iqbalhossen.vercel.app
+locale: en
+
+collections:
+  - name: site
+    label: Website content
+    files:
+      - name: content
+        label: "All content (projects, reviews, pricing, links)"
+        file: data/content.json
+        format: json
+        fields:
+          - { name: site_url, label: "Site address (change when the domain is connected)", widget: string }
+          - { name: available, label: "Show 'Available for new projects' badge", widget: boolean, default: true }
+          - { name: whatsapp, label: "WhatsApp number (digits only, with country code)", widget: string }
+          - { name: whatsapp_display, label: "WhatsApp number as shown on the site", widget: string }
+          - { name: email, label: "Email (leave empty to hide)", widget: string, required: false }
+          - { name: fiverr, label: "Fiverr profile URL", widget: string }
+          - { name: upwork, label: "Upwork profile URL", widget: string }
+          - { name: github, label: "GitHub profile URL", widget: string }
+          - name: stats
+            label: Numbers
+            widget: object
+            fields:
+              - { name: rating, label: "Fiverr rating", widget: string }
+              - { name: reviews, label: "Number of reviews", widget: string }
+              - { name: five_star, label: "Five star reviews", widget: string }
+              - { name: websites, label: "Websites delivered (e.g. 150+)", widget: string }
+              - { name: years, label: "Years of experience (e.g. 5+)", widget: string }
+              - { name: countries, label: "Client countries (e.g. 17+)", widget: string }
+          - name: featured
+            label: Projects (portfolio cards)
+            label_singular: Project
+            widget: list
+            summary: "{{fields.name}} ({{fields.market}})"
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: url, label: "Live URL", widget: string }
+              - { name: image, label: "Screenshot (800 x 500)", widget: image }
+              - name: cat
+                label: Filter group
+                widget: select
+                options:
+                  - { label: "Ad landing page", value: landing }
+                  - { label: "Shopify store", value: store }
+                  - { label: "WordPress", value: wordpress }
+                  - { label: "Wix or HubSpot", value: other }
+              - { name: tags, label: "Tags (2 work best)", widget: list }
+              - { name: market, label: "Country or market", widget: string }
+              - { name: desc, label: "Short description", widget: text }
+          - name: reviews
+            label: Written reviews
+            label_singular: Review
+            widget: list
+            summary: "{{fields.name}}, {{fields.country}}"
+            fields:
+              - { name: name, label: "Client username", widget: string }
+              - { name: country, label: Country, widget: string }
+              - { name: project, label: "Project label", widget: string }
+              - { name: text, label: "Review text (copy it exactly)", widget: text }
+          - name: pricing
+            label: Pricing cards
+            label_singular: Pricing card
+            widget: list
+            summary: "{{fields.name}}: from ${{fields.price}}"
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: sub, label: "One line description", widget: string }
+              - { name: price, label: "Starting price (USD, number only)", widget: string }
+              - { name: eta, label: "Delivery time (e.g. about 5 days)", widget: string }
+              - { name: featured, label: "Highlight as most popular", widget: boolean, default: false }
+              - { name: items, label: "What's included", widget: list }
+              - { name: wa, label: "WhatsApp message when clicked", widget: string }
+          - { name: hourly_rate, label: "Hourly rate (USD)", widget: string }
+          - name: index
+            label: Full project list
+            label_singular: Column
+            widget: list
+            fields:
+              - { name: title, label: "Column title", widget: string }
+              - { name: sites, label: "Domains (one per item, without https://)", widget: list }
